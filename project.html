@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Overview - Topics in Computer Systems (001)</title>
+
+  <style>
+    body {
+      font-family: 'Arial', sans-serif; /* Set font family */
+      line-height: 1.6; /* Set line height for better readability */
+      background-color: #f8f8f8; /* Set background color */
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+    }
+
+    h1 {
+      color: #003366; /* Set color for titles */
+      font-size: 32px; /* Set font size for titles */
+      margin-top: 20px; /* Add top margin */
+    }
+
+    h2 {
+      color: #003366; /* Set color for section titles */
+      font-size: 24px; /* Set font size for section titles */
+      margin-top: 20px; /* Add top margin */
+    }
+
+    p {
+      color: #666; /* Set color for descriptions */
+      font-size: 16px; /* Set font size for descriptions */
+      margin-bottom: 20px; /* Add bottom margin */
+    }
+
+    .project-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; /* Allow projects to wrap to the next line */
+    }
+
+    .project {
+      background-color: #fff; /* Set background color for project container */
+      padding: 20px; /* Add padding */
+      margin-bottom: 20px; /* Add bottom margin */
+      border-radius: 10px; /* Add border radius */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+      flex-basis: calc(33.33% - 20px); /* Set width for project container */
+      transition: all 0.3s ease; /* Add smooth transition */
+    }
+
+    .project:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow on hover */
+      transform: translateY(-5px); /* Move project slightly up on hover */
+    }
+  </style>
+</head>
+<body>
+  <h1>Course Overview - Topics in Computer Systems (001)</h1>
+  <h2> COurse Instructor: Phu Phung</h2>
+
+  <div id="course_summary">
+    <h2>Course Summary</h2>
+    <p>
+      In this course, students will study basic web application development with front-end (HTML5, JavaScript, CSS) and back-end (PHP/MySQL). Secure programming principles and practices will be introduced to avoid potential web application vulnerabilities and attacks.
+    </p>
+
+    <h2>Course Activities</h2>
+    <p>
+      - Lab 1: Introduction to HTML5 and CSS<br>
+      - Lab 2: JavaScript Essentials<br>
+      - Hackathon: Secure Web Application Development
+    </p>
+
+    <h2>Overview</h2>
+    <p>
+      This course provides an in-depth understanding of web application development and security. Students will learn about client-side and server-side technologies, version control, and secure programming principles. The course emphasizes hands-on exercises, labs, and a hackathon to apply theoretical knowledge in practical scenarios.
+    </p>
+  </div>
+
+  <h2>Projects</h2>
+
+  <div class="project-container">
+    <!-- Suicide Ideation Project -->
+    <div class="project" id="suicide_ideation">
+      <h3>Suicide Ideation Using Deep Learning</h3>
+      <p>
+        Developed a deep learning model to detect suicidal ideation in social media posts, achieving 95% accuracy. Extracted and cleaned a large dataset from social platforms to train classification algorithms, prioritizing users needing mental health support. Published research paper on suicide ideation methodology and ethical considerations.
+      </p>
+    </div>
+
+    <!-- Telecom Churn Prediction Project -->
+    <div class="project" id="telecom_churn">
+      <h3>Telecom Churn Prediction</h3>
+      <p>
+        Developed a predictive model to identify customers at high risk of churning using Python and sklearn, achieving 92% accuracy in predicting churn 1 month before cancellation using gradient boosting. Identified the most influential factors driving churn through exploratory data analysis and presented recommendations to leverage predictions to proactively offer retention incentives.
+      </p>
+    </div>
+
+    <!-- Tuition Fee Management System Project -->
+    <div class="project" id="tuition_fee">
+      <h3>School Tuition Fee Management System</h3>
+      <p>
+        Developed a web application to manage school tuition fees and payments, including an online portal for parents to view fees, download invoices, and make payments. Integrated payment gateway APIs to enable online fee submission via cards/netbanking and generated custom reports and analytics on collection rates, defaulters, and revenue. Helped improve fee collection rates and reduce delays for partner schools.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
